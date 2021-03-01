@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  
 }
 
 /*
@@ -205,7 +206,7 @@ textarea {
 
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a[href]::after {
@@ -261,3 +262,46 @@ textarea {
   }
 }
 
+/*========================style start here ===========================================*/
+
+body{
+  height: 100vh;
+  background-color: linear-gradient(0deg, rgba(148,168,246,1) 0%, rgba(148,168,246,0.52) 50%, rgba(190,220,250,0.47) 100%);
+  background: -moz-linear-gradient(0deg, rgba(148,168,246,1) 0%, rgba(148,168,246,0.52) 50%, rgba(190,220,250,0.47) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(148,168,246,1) 0%, rgba(148,168,246,0.52) 50%, rgba(190,220,250,0.47) 100%);
+  background: linear-gradient(0deg, rgba(148,168,246,1) 0%, rgba(148,168,246,0.52) 50%, rgba(190,220,250,0.47) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#94a8f6",endColorstr="#bedcfa",GradientType=1);
+  font-family:  'Rajdhani', sans-serif;
+}
+.bg-menu{
+  background-color: #A393EB;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 2em;
+  
+}
+
+.navbar-brand:hover,
+#btn-add:hover{
+  color:  #6155a6;
+}
+#btn-add,
+.navbar-brand{
+  color: #F0F0F0;
+  transition: all .3s;
+}
+.content{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.btn-content{
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 700;
+  color: #F0F0F0;
+  transition: all .3s;
+}
